@@ -1,0 +1,169 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden !important;
+    background-image: url('../images/body_bg.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.overall{
+    overflow-x: hidden !important;
+}
+.nav-item span{
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+}
+.main-head{
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* welcome */
+.welcome_img img {
+    border-radius: 22px;
+}
+/* cuisine */
+
+/* dish carousel */
+.dish-txt{
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    margin-left: 60px;
+}
+.food-dishes img{
+    width: 160px !important;
+}
+.arrow-key i{
+    border: 1px solid #E3E2E7;
+    border-radius: 50px;
+    background-color: #E3E2E7;
+    padding: 10px;
+}
+
+/* al rest */
+.sher-address img{
+    width:20px;
+    height: 20px;
+    margin-top: 15px;
+}
+.sher-food h6{
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+}
+.sher-delivery p{
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+}
+.sher-address p{
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #54586A;
+    font-style: normal;
+}
+.star{
+    font-family: "Readex Pro", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #54586A;
+    font-style: normal;
+}
+.free-del{
+    background: transparent linear-gradient(270deg, #FFFFFF 0%, #C9F9F7 100%);
+    padding: 7px 12px;
+    height: 40px;
+    border-radius: 17px;
+    font-size: 14px;
+    text-transform: uppercase;font-weight: 600;
+    color:#009A93;
+}
+.free-del img{display: inline-block;vertical-align: middle;margin-right: 5px;}
+.rest-crd{
+    border-radius:20px;
+}
+
+@media screen and (min-width:320px) and (max-width:350px) {
+   .food-dishes img{
+   margin-left:50px;
+   }
+   .dish-txt{
+   margin-left: 118px;
+   }
+   .cuisine_img img {
+    width: 100% !important;
+    height: 300px !important;
+}
+.al-rest{
+    margin-top: 60px;
+  }
+  .dish-head{
+    position: relative;
+  }
+  .arrow-key{
+    position: absolute;
+    top:270px;
+    left: 90px; 
+  }
+
+}
+@media screen and (min-width:375px) and (max-width:400px)  {
+    .food-dishes img{
+    margin-left:80px;
+    }
+    .dish-txt{
+    margin-left: 138px;
+    }
+    .cuisine_img img {
+     width: 100% !important;
+     height: 300px !important;
+ }
+ .al-rest{
+     margin-top: 60px;
+   }
+   .dish-head{
+     position: relative;
+   }
+   .arrow-key{
+     position: absolute;
+     top:270px;
+     left:120px; 
+   }
+ 
+ }
+ @media screen and (min-width:425px) and (max-width:600px) {
+    .food-dishes img{
+    margin-left:120px;
+    }
+    .dish-txt{
+    margin-left: 178px;
+    }
+    .cuisine_img img {
+     width: 100% !important;
+     height: 300px !important;
+ }
+ .al-rest{
+     margin-top: 60px;
+   }
+   .dish-head{
+     position: relative;
+   }
+   .arrow-key{
+     position: absolute;
+     top:270px;
+     left:160px; 
+   }
+ 
+ }
+ 
+
+

@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Shero</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <!--bootstrap cdn link-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!--google font link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Readex+Pro:wght@160..700&display=swap"
+    rel="stylesheet">
+
+  <!--font awesome cdn link-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--owl carousel-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="assets/js/script.js"></script>
+</head>
+
+<body>
+  <header>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <img src="./assets/images/logo.png">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav d-flex w-100 justify-content-between">
+            <li class="nav-item">
+              <span><i class="fa-solid fa-location-arrow"></i> Periyamet, Chennai <i
+                  class="fa-solid fa-chevron-down px-4"></i></span></span>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">
+                <span><svg xmlns="http://www.w3.org/2000/svg" width="19.165" height="19.404"
+                    viewBox="0 0 19.165 19.404">
+                    <path id="home"
+                      d="M17.982,7.058l-5.9-5.9a3.9,3.9,0,0,0-5.5,0l-5.9,5.9A2.316,2.316,0,0,0,0,8.708v7.635a2.333,2.333,0,0,0,2.333,2.333h14a2.333,2.333,0,0,0,2.333-2.333V8.708A2.316,2.316,0,0,0,17.982,7.058ZM11.666,17.12H7v-3.06a2.333,2.333,0,0,1,4.666,0Zm5.444-.778a.778.778,0,0,1-.778.778H13.221v-3.06a3.889,3.889,0,1,0-7.777,0v3.06H2.333a.778.778,0,0,1-.778-.778V8.708a.784.784,0,0,1,.228-.55l5.9-5.9a2.339,2.339,0,0,1,3.3,0l5.9,5.9a.784.784,0,0,1,.228.548Z"
+                      transform="translate(0.25 0.478)" fill="#009a93" stroke="#009a93" stroke-width="0.5" />
+                  </svg>
+                </span>Home</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><span><svg xmlns="http://www.w3.org/2000/svg" width="19.4" height="19.4"
+                    viewBox="0 0 19.4 19.4">
+                    <path id="badge-percent"
+                      d="M9.5,19a4.346,4.346,0,0,1-3.331-1.551,4.166,4.166,0,0,1-3.386-1.231,4.35,4.35,0,0,1-1.259-3.453A4.172,4.172,0,0,1,0,9.5,4.344,4.344,0,0,1,1.552,6.169,4.171,4.171,0,0,1,2.783,2.783,4.339,4.339,0,0,1,6.235,1.524,4.175,4.175,0,0,1,9.5,0a4.346,4.346,0,0,1,3.331,1.551,4.167,4.167,0,0,1,3.386,1.231,4.35,4.35,0,0,1,1.259,3.453A4.172,4.172,0,0,1,19,9.5a4.344,4.344,0,0,1-1.552,3.331,4.171,4.171,0,0,1-1.231,3.386,4.349,4.349,0,0,1-3.452,1.259A4.175,4.175,0,0,1,9.5,19ZM6.233,15.894a1.486,1.486,0,0,1,1.146.535,2.77,2.77,0,0,0,4.242,0A1.49,1.49,0,0,1,12.9,15.9a2.771,2.771,0,0,0,3-3,1.486,1.486,0,0,1,.53-1.28,2.77,2.77,0,0,0,0-4.24A1.487,1.487,0,0,1,15.9,6.1a2.77,2.77,0,0,0-3-3,1.48,1.48,0,0,1-1.28-.53,2.77,2.77,0,0,0-4.242,0A1.5,1.5,0,0,1,6.1,3.1a2.771,2.771,0,0,0-3,3,1.486,1.486,0,0,1-.53,1.28,2.77,2.77,0,0,0,0,4.24A1.487,1.487,0,0,1,3.1,12.9a2.77,2.77,0,0,0,3,3c.045,0,.089-.006.134-.006Zm.892-9.56a.792.792,0,1,0,.792.792A.792.792,0,0,0,7.125,6.333Zm4.75,4.75a.792.792,0,1,0,.792.792A.792.792,0,0,0,11.875,11.083Zm-3.3,1.231,3.167-4.75a.792.792,0,1,0-1.317-.879l-3.167,4.75a.792.792,0,0,0,1.317.879Z"
+                      transform="translate(0.2 0.2)" fill="#434250" stroke="#403f4d" stroke-width="0.4" />
+                  </svg>
+                </span>Offer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"><span><svg xmlns="http://www.w3.org/2000/svg" width="18.653" height="18.654"
+                    viewBox="0 0 18.653 18.654">
+                    <g id="search" transform="translate(-0.021 0)">
+                      <path id="Path_1" data-name="Path 1"
+                        d="M18.334,16.669l-3.611-3.612A8.164,8.164,0,1,0,13.078,14.7l3.612,3.612a1.162,1.162,0,1,0,1.644-1.644ZM8.216,14a5.81,5.81,0,1,1,5.81-5.81A5.81,5.81,0,0,1,8.216,14Z"
+                        transform="translate(0)" fill="#434250" />
+                    </g>
+                  </svg>
+                </span>Search</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"><span><svg xmlns="http://www.w3.org/2000/svg" width="19.59" height="19.735"
+                    viewBox="0 0 19.59 19.735">
+                    <path id="hat-chef"
+                      d="M18.868,3.725a4.277,4.277,0,0,0-6.077-2.441,4.876,4.876,0,0,0-6.586,0c-5.091-2.6-9.046,4.836-3.573,7.2a.739.739,0,0,1,.534.674v6.282A3.562,3.562,0,0,0,6.727,19h5.541a3.562,3.562,0,0,0,3.562-3.562V9.155a.739.739,0,0,1,.534-.674,3.972,3.972,0,0,0,2.5-4.756Zm-4.62,11.712a1.979,1.979,0,0,1-1.979,1.979H6.727a2.049,2.049,0,0,1-1.979-2.375h9.5Zm1.583-8.448a2.305,2.305,0,0,0-1.583,2.166v4.3h-9.5v-4.3A2.305,2.305,0,0,0,3.165,6.989a2.4,2.4,0,0,1-1.5-2.872,2.634,2.634,0,0,1,4.1-1.187.8.8,0,0,0,1.221-.111,3.169,3.169,0,0,1,5.021,0,.8.8,0,0,0,1.221.111,2.508,2.508,0,0,1,2.3-.507h0a2.385,2.385,0,0,1,.308,4.567Z"
+                      transform="translate(0.268 0.485)" fill="#434250" stroke="#343844" stroke-width="0.5" />
+                  </svg>
+                </span>Kitchens</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span><svg
+                    xmlns="http://www.w3.org/2000/svg" width="14.25" height="18.833" viewBox="0 0 14.25 18.833">
+                    <g id="user" transform="translate(-2.75 0.25)">
+                      <path id="Path_2" data-name="Path 2"
+                        d="M10.583,9.167A4.583,4.583,0,1,0,6,4.583a4.583,4.583,0,0,0,4.583,4.583Zm0-7.639A3.056,3.056,0,1,1,7.528,4.583a3.056,3.056,0,0,1,3.056-3.056Z"
+                        transform="translate(-0.708)" fill="#3b3d4a" stroke="#3b3d4a" stroke-width="0.5" />
+                      <path id="Path_3" data-name="Path 3"
+                        d="M9.875,14A6.883,6.883,0,0,0,3,20.875a.764.764,0,1,0,1.528,0,5.347,5.347,0,1,1,10.694,0,.764.764,0,0,0,1.528,0A6.883,6.883,0,0,0,9.875,14Z"
+                        transform="translate(0 -3.306)" fill="#3b3d4a" stroke="#3b3d4a" stroke-width="0.5" />
+                    </g>
+                  </svg>
+                </span>My Profile</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Account</a></li>
+                <li><a class="dropdown-item" href="#">Logout</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">
+                <span><svg xmlns="http://www.w3.org/2000/svg" width="18.739" height="19.2" viewBox="0 0 18.739 19.2">
+                    <g id="shopping-cart" transform="translate(0.1 0.1)">
+                      <path id="Path_4" data-name="Path 4"
+                        d="M17.981,3.228a2.369,2.369,0,0,0-1.823-.853H3.358L3.325,2.1A2.375,2.375,0,0,0,.967,0H.792a.792.792,0,0,0,0,1.583H.967a.792.792,0,0,1,.786.7l1.089,9.263a3.958,3.958,0,0,0,3.931,3.5h8.267a.792.792,0,1,0,0-1.583H6.774a2.375,2.375,0,0,1-2.233-1.583h9.437a3.958,3.958,0,0,0,3.9-3.256L18.5,5.172a2.37,2.37,0,0,0-.515-1.944ZM16.942,4.891l-.622,3.447a2.375,2.375,0,0,1-2.341,1.954H4.29L3.545,3.958H16.158a.792.792,0,0,1,.784.933Z"
+                        fill="#3b3d4a" stroke="#3b3d4a" stroke-width="0.2" />
+                      <circle id="Ellipse_1" data-name="Ellipse 1" cx="1.5" cy="1.5" r="1.5" transform="translate(4 16)"
+                        fill="#3b3d4a" stroke="#3b3d4a" stroke-width="0.2" />
+                      <circle id="Ellipse_2" data-name="Ellipse 2" cx="1.5" cy="1.5" r="1.5"
+                        transform="translate(12 16)" fill="#3b3d4a" stroke="#3b3d4a" stroke-width="0.2" />
+                    </g>
+                  </svg>
+                </span>Cart
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--welcome carousel-->
+  <div class="container overall">
+    <section class="wel_banner">
+      <div class="container text-center">
+        <div class="owl-carousel owl-theme">
+          <div class="welcome_img"><a href=""> <img src="assets/images/welcomeBanner-01.jpg" alt="" /></a></div>
+          <div class="welcome_img"><a href=""> <img src="assets/images/welcomeBanner-02.jpg" alt="" /></a></div>
+          <div class="welcome_img"><a href=""> <img src="assets/images/welcomeBanner-03.jpg" alt="" /></a></div>
+          <div class="welcome_img"><a href=""> <img src="assets/images/welcomeBanner-02.jpg" alt="" /></a></div>
+          <div class="welcome_img"><a href=""> <img src="assets/images/welcomeBanner-01.jpg" alt="" /></a></div>
+          <div class="welcome_img"><a href=""> <img src="assets/images/welcomeBanner-02.jpg" alt="" /></a></div>
+          <div class="welcome_img"><a href=""> <img src="assets/images/welcomeBanner-03.jpg" alt="" /></a></div>
+          <div class="welcome_img"><a href=""> <img src="assets/images/welcomeBanner-02.jpg" alt="" /></a></div>
+          <div class="welcome_img"><a href=""> <img src="assets/images/welcomeBanner-01.jpg" alt="" /></a></div>
+          <div class="welcome_img"><a href=""> <img src="assets/images/welcomeBanner-02.jpg" alt="" /></a></div>
+          <div class="welcome_img"><a href=""> <img src="assets/images/welcomeBanner-03.jpg" alt="" /></a></div>
+          <div class="welcome_img"><a href=""> <img src="assets/images/welcomeBanner-02.jpg" alt="" /></a></div>
+        </div>
+      </div>
+    </section>
+    <section class="cuisines">
+      <div class="container">
+        <h3 class="main-head">Cuisines to suit your taste</h3>
+        <div class=" cuisine-carousel owl-carousel">
+          <div class="cuisine_img"><a href=""> <img src="assets/images/Group 501.png" alt="" /></a></div>
+          <div class="cuisine_img"><a href=""> <img src="assets/images/Group 502.png" alt="" /></a></div>
+          <div class="cuisine_img"><a href=""> <img src="assets/images/Group 503.png" alt="" /></a></div>
+          <div class="cuisine_img"><a href=""> <img src="assets/images/Group 1254.png" alt="" /></a></div>
+          <div class="cuisine_img"><a href=""> <img src="assets/images/Group 501.png" alt="" /></a></div>
+          <div class="cuisine_img"><a href=""> <img src="assets/images/Group 502.png" alt="" /></a></div>
+          <div class="cuisine_img"><a href=""> <img src="assets/images/Group 503.png" alt="" /></a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="off_banner">
+      <div class="container">
+
+        <img src="assets/images/llk copy.png" class="w-100">
+      </div>
+    </section>
+    <section class="dish_carousel mt-3">
+      <div class="container">
+        <div class="d-flex justify-content-between dish-head">
+          <h3 class="main-head mt-2">Dishes on your mind</h3>
+          <div class="arrow-key">
+            <i class="fa-solid fa-arrow-left"  id="customPrevBtn"></i>
+            <i class="fa-solid fa-arrow-right" id="customNextBtn"></i>
+          </div>
+        </div>
+       
+        <div class="row">
+          <div class="col-md-12  d-flex justify-content-between owl-carousel dish-carousel">
+            <div class="food-dishes">
+              <img src="assets/images/Untitled-2.png">  
+              <div class="food-foot">
+                <h4 class="dish-txt  mt-3">Idli</h4>
+              </div>
+
+            </div>
+            <div class="food-dishes">
+              <img src="assets/images/Untitled-3.png">
+              <div class="food-foot">
+                <h4 class="dish-txt  mt-3">Dosa</h4>
+              </div>
+
+            </div>
+            <div class="food-dishes">
+              <img src="assets/images/Untitled-4.png">
+              <div class="food-foot">
+                <h4 class="dish-txt  mt-3">Pongal</h4>
+              </div>
+
+            </div>
+            <div class="food-dishes">
+              <img src="assets/images/Untitled-5.png">
+              <div class="food-foot">
+                <h4 class="dish-txt mt-3">Poori</h4>
+              </div>
+
+            </div>
+            <div class="food-dishes">
+              <img src="assets/images/Untitled-2.png">
+              <div class="food-foot">
+                <h4 class="dish-txt mt-3">Idli</h4>
+              </div>
+            </div>
+            <div class="food-dishes">
+              <img src="assets/images/Untitled-3.png">
+              <div class="food-foot">
+                <h4 class=" dish-txt mt-3">Dosa</h4>
+              </div>
+
+            </div>
+            <div class="food-dishes">
+              <img src="assets/images/Untitled-4.png">
+              <div class="food-foot">
+                <h4 class="dish-txt  mt-3">Pongal</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="al-rest">
+      <div class="container">
+        <h3 class="main-head">All Restaurants</h3>
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-12">
+            <div class="card rest-crd">
+              <img src="assets/images/Group 1255.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="sher-food d-flex justify-content-between">
+                  <h6 class="mb-0 pb-0"><span class="mx-lg-2 mx-1 "><img src="assets/images/logo_thumb.png"
+                        class="thumb"></span>Shero Home Food</h6>
+                  <p class=" mb-0 pb-0 "><span class="mx-lg-2 mx-1"><img src="assets/images/star1.png"
+                        class="thumb1"></span><span class="mt-1 star">4.3(100+)</span></p>
+                </div>
+                <div class="sher-address d-flex">
+                  <img src="assets/images/Group 1226.png" class="mx-lg-2 mx-1 add_img">
+                  <p class="mt-3"> Anna Nagar, Chennai 5.0 km</p>
+                </div>
+                <div class="sher-delivery d-flex justify-content-between">
+                  <p class="mt-2 mx-lg-2 mx-1">Chettinad food</p>
+                  <div class="free-del"><img src="assets/images/free_delivery.png" alt="" /> FREE DELIVERY</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-12">
+            <div class="card rest-crd">
+              <img src="assets/images/Group 1255.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="sher-food d-flex justify-content-between">
+                  <h6 class="mb-0 pb-0"><span class="mx-lg-2 mx-1 "><img src="assets/images/logo_thumb.png"
+                        class="thumb"></span>Shero Home Food</h6>
+                  <p class=" mb-0 pb-0 "><span class="mx-lg-2 mx-1"><img src="assets/images/star1.png"
+                        class="thumb1"></span><span class="mt-1 star">4.3(100+)</span></p>
+                </div>
+                <div class="sher-address d-flex">
+                  <img src="assets/images/Group 1226.png" class="mx-lg-2 mx-1 add_img">
+                  <p class="mt-3"> Anna Nagar, Chennai 5.0 km</p>
+                </div>
+                <div class="sher-delivery d-flex justify-content-between">
+                  <p class="mt-2 mx-lg-2 mx-1">Chettinad food</p>
+                  <div class="free-del"><img src="assets/images/free_delivery.png" alt="" /> FREE DELIVERY</div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-lg-6 col-md-12 col-12">
+            <div class="card rest-crd">
+              <img src="assets/images/Group 1255.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="sher-food d-flex justify-content-between">
+                  <h6 class="mb-0 pb-0"><span class="mx-lg-2 mx-1 "><img src="assets/images/logo_thumb.png"
+                        class="thumb"></span>Shero Home Food</h6>
+                  <p class=" mb-0 pb-0 "><span class="mx-lg-2 mx-1"><img src="assets/images/star1.png"
+                        class="thumb1"></span><span class="mt-1 star">4.3(100+)</span></p>
+                </div>
+                <div class="sher-address d-flex">
+                  <img src="assets/images/Group 1226.png" class="mx-lg-2 mx-1 add_img">
+                  <p class="mt-3"> Anna Nagar, Chennai 5.0 km</p>
+                </div>
+                <div class="sher-delivery d-flex justify-content-between">
+                  <p class="mt-2 mx-lg-2 mx-1">Chettinad food</p>
+                  <div class="free-del"><img src="assets/images/free_delivery.png" alt="" /> FREE DELIVERY</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-12 rest">
+            <div class="card rest-crd">
+              <img src="assets/images/Group 1255.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="sher-food d-flex justify-content-between">
+                  <h6 class="mb-0 pb-0"><span class="mx-lg-2 mx-1 "><img src="assets/images/logo_thumb.png"
+                        class="thumb"></span>Shero Home Food</h6>
+                  <p class=" mb-0 pb-0 "><span class="mx-lg-2 mx-1"><img src="assets/images/star1.png"
+                        class="thumb1"></span><span class="mt-1 star">4.3(100+)</span></p>
+                </div>
+                <div class="sher-address d-flex">
+                  <img src="assets/images/Group 1226.png" class="mx-lg-2 mx-1 add_img">
+                  <p class="mt-3"> Anna Nagar, Chennai 5.0 km</p>
+                </div>
+                <div class="sher-delivery d-flex justify-content-between">
+                  <p class="mt-2 mx-lg-2 mx-1">Chettinad food</p>
+                  <div class="free-del"><img src="assets/images/free_delivery.png" alt="" /> FREE DELIVERY</div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </div>
+</body>
+
+</html>
